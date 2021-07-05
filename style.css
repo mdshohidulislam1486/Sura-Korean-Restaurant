@@ -9,12 +9,19 @@ h1{
     font-size:40px;
 }
 .divide{
-    display:flex;
-    margin:3em;  
+    display:flex;  
 }
 .divide-half{
     width:50%;
-    margin:2em;
+    margin:3em 2em;
+}
+.environment{
+background-image: url(images/shapes/Frame\ 56.jpg);
+background-size: cover;
+height:100%;
+background-repeat: no-repeat;
+background-position: bottom center;
+background-size: 100% auto;
 }
 .divide-half img{
     width:90%;
