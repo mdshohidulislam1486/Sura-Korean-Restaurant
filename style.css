@@ -4,49 +4,63 @@
     font-family:'Open Sans', sans-serif;
     box-sizing:border-box;
 }
-h1{
+.divide h1{
     font-weight: 800px;
     font-size:40px;
+    padding-bottom: 0.7em;
 }
 .divide{
     display:flex;  
 }
 .divide-half{
     width:50%;
-    margin:3em 2em;
+    margin:4em 4em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .environment{
-background-image: url(images/shapes/Frame\ 56.jpg);
-background-size: cover;
-height:100%;
-background-repeat: no-repeat;
-background-position: bottom center;
-background-size: 100% auto;
+    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-size: cover;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% auto;
 }
 .divide-half img{
     width:90%;
     border-radius:1em;
     
 }
+.divide-half p{
+    max-width: 600px;
+}
 .repeat-color{
     color:blue;
 }
-.btn{
+.divide .btn{
     border:none;
     background-image: linear-gradient(to right, blue, blueviolet);
-    padding:1em 2em;
+    padding:1em ;
+    color:white;
+    border-radius:1em;
+    margin-top:2em;
+    cursor: pointer;
+    text-decoration: none;
+    width:150px;
+    text-align: center;
 }
 .recipes{
-    display:flex;
     
+    
+}
+.box-flex{
+    display:flex;
+    padding:4em;
 }
 .box-flex img{
     width:100%;
     border-radius:15px;
-}
-.box-flex{
-    display:flex;
-    
 }
 .recipes .image{
     padding:1em;
@@ -56,10 +70,19 @@ background-size: 100% auto;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    margin:1em;
-    box-shadow:5px 5px 10px 5px gray;
+    margin:2em;
+    box-shadow:1px 1px 3px 2px rgba(0,0,255, .1);
     border-radius:15px;
 }
 .recipes .content{
     padding:1em;
+}
+.recipes .content h1{
+    padding-bottom:1em;
+}
+.recipes .content h4{
+    padding-bottom:2em;
+}
+.recipes .content p{
+    padding-bottom:3em;
 }
