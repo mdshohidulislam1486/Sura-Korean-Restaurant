@@ -70,7 +70,7 @@
     display:flex;
     padding:2em 4em 2em;
 }
-.box-flex img{
+.recipes .box-flex img{
     width:100%;
     border-radius:15px;
 }
@@ -141,4 +141,23 @@
 }
 .reviews p{
     padding:1em;
+}
+footer{
+    background:darkblue;
+}
+footer h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: #FFD700;
+ 
+}
+.footer-flex{
+display:flex;
+justify-content: space-between;
+padding:0.3em 6em 2em;
+color:gray;
+}
+.copy-rights{
+    text-align:center;
+    color:gray;
 }
